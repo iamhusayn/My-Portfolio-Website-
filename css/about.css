@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #344e41;
-    color: #000;
+    /* border: 10px solid rgb(255, 0, 195); */
+    background-color: #a3b18a;
+    height: 100%;
+    color: #a3b18a;
 }
 
-.header {
-    background: transparent;
-    border-bottom: 2px solid #000;
-    position: fixed;
+.header2 {
+    background: #a3b18a;
+    /* border-bottom: 2px solid #ccae05eb; */
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -23,22 +25,197 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 35px;
-    color: #a3b18a;
-    font-weight: 500;
+.logo2 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 900;
     text-decoration: none;
 }
 
-.navbar a {
-    color: #a3b18a;
+.navbar2 a {
+    color: #000000;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
     margin-left: 50px;
 }
 
-.navbar a:hover,
-.navbar a:hover :active {
-    color:  rgba(61, 52, 3, 0.96);
+.navbar2 a:hover,
+.navbar2 a:hover:active {
+    color:  #000000;
+}
+
+.allabout {
+    border: 2px solid black;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2 100px);
+    justify-content: center;
+    gap: 2rem;
+    color: #000;
+    font-size: small;
+    margin: 10px 50px;
+}
+
+.aboutme {
+    border: 2px solid green;
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+}
+
+.myjourney {
+    border: 2px solid rgb(255, 0, 0);
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+}
+
+.mybelieve {
+    border: 2px solid rgb(251, 255, 0);
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+}
+
+.notworking {
+    border: 2px solid rgb(0, 0, 255);
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+}
+
+.letsconnect {
+    border: 2px solid rgb(255, 0, 191);
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+}
+
+.myjourney {
+    border: 2px solid rgb(255, 111, 0);
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+.btnbox2 a {
+    border: 2px solid rgb(232, 224, 220);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+    background: #a3b18a;
+    background-color: #000;
+    width: 120px;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #a3b18a;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 2px;
+    overflow: hidden;
+    z-index: 1;
+    transition: .3s;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+
+.btnbox2 a:hover {
+    color: #000000;
+}
+
+.btnbox2 a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #a3b18a;
+    z-index: -1;
+    transition: .3s;
+}
+
+.btnbox2 a:hover::before {
+    width: 100%;
+}
+
+img {
+    height: 30rem;
+    width: 30rem;
+    /* border: 2px solid rgb(106, 255, 0); */
+}
+
+.sm-home2 {
+    /* border: 2px solid rgb(0, 255, 51); */
+    display: flex;
+    flex-direction: row;
+    gap: 40px; 
+}
+
+.sm-home2 a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden; 
+}
+
+.sm-home2 a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000000;
+    z-index: -1;
+    transition: .3s;
+}
+
+.sm-home2 a:hover::before {
+    width: 100%;
+}
+
+
+footer {
+    /* border: 2px solid rgb(255, 166, 0); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px 10px;
+    height: 60px;
+    gap: 10rem;
+}
+
+footer #p {
+    /* border: 2px solid rgb(255, 166, 0); */
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
