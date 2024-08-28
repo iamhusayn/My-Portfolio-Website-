@@ -6,14 +6,16 @@
 }
 
 body {
+    /* border: 2px solid rgb(255, 0, 195); */
     background-color: #344e41;
+    height: 900px;
     color: #000;
 }
 
 .header {
     background: #344e41;
-    border-bottom: 2px solid #000;
-    position: fixed;
+    /* border-bottom: 2px solid #000; */
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -39,8 +41,8 @@ body {
 }
 
 .navbar a:hover,
-.navbar a:hover :active {
-    color:  rgba(61, 52, 3, 0.96);
+.navbar a:hover:active {
+    color:  rgba(246, 209, 4, 0.923);
 }
 
 .home {
@@ -48,22 +50,24 @@ body {
     /* background: url('./image/MeBlack.jpg') no-repeat;
     background-size: cover;
     background-position: center; */
-    border: 2px solid red;
+    border: 2px solid rgb(15, 237, 234);
     align-items: center;
-    max-width: 60%;
-    padding: 40% 10%;
-    height: 100vh;
+    width: 100%;
+    padding: 25% 10%;
+    height: 100px;
 }
 
 .home-content {
+    border: 2px solid red;
     /* color: rgb(233, 228, 136);
     background-color: #000; */
-    max-width: 600px;
+    width: 800px;
     border-radius: 20px;
 }
 
 .home-content h1 {
-    font-size: 80px;
+    /* border: 2px solid rgb(255, 208, 0); */
+    font-size: 70px;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -130,25 +134,124 @@ body {
     width: 100%;
 }
 
+img {
+    border: 2px solid rgb(106, 255, 0);
+    border-radius: 10px;
+}
+
 
 /* background-color: rgba(235, 197, 9, 0.951); */
-.sm-home {
-    border: 2px solid red;
-    background: rgba(235, 197, 9, 0.951);
+footer {
+    /* border: 2px solid rgb(255, 166, 0); */
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 25px 10px;
+    height: 80px;
+}
+
+
+.sm-home {
+    /* border: 2px solid rgb(0, 255, 51); */
     position: absolute;
-    /* width: 300px; */
-    bottom: 0px;
-    width: 200px;
-    /* margin-left: 20px; */
-    /* padding: px; */
-    /* max-width: 600px; */
-    /* margin: 20px 0 40px; */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 2px; 
 }
 
 .sm-home a {
-    /* background-color: rgba(235, 9, 9, 0.951);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #a3b18a;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+     
+}
+
+.sm-home a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #a3b18a;
+    z-index: -1;
+    transition: .3s;
+}
+
+.sm-home a:hover::before {
+    width: 100%;
+}
+
+
+
+
+
+/* About Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+border: 2px solid red;
+background: rgba(235, 197, 9, 0.951);
+display: flex;
+justify-content: flex-end;
+position: absolute;
+width: 300px;
+bottom: 0px;
+width: 200px;
+margin-left: 20px;
+padding: px;
+max-width: 600px;
+margin: 20px 0 40px;
+
+
+background-color: rgba(235, 9, 9, 0.951);
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -161,4 +264,3 @@ body {
     overflow: hidden;
     background: transparent;
     text-decoration: none; */
-}
