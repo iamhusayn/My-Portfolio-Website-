@@ -1,6 +1,18 @@
 /* Mobile Phones */
-@media screen and (max-width: 760px) {
-    
+@media screen and (max-width: 360px) {
+    header{
+        width: 50%;
+        padding: 2px 2px;
+    }
+
+    .logo {
+        font-size: 5px;
+
+    }
+
+    .navbar a {
+        margin-left: 2%;
+    }
 }
 
 /* Tablets Devices *
