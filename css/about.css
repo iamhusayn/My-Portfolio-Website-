@@ -209,7 +209,7 @@ footer {
     gap: 10rem;
 }
 
-footer #p {
+.para2 {
     /* border: 2px solid rgb(255, 166, 0); */
     font-size: 13px;
     font-weight: 400;
