@@ -140,7 +140,7 @@ body {
     height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
     padding: 20px 50px;
