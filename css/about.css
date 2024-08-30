@@ -73,11 +73,12 @@ body {
     gap: 50px;
 }
 
-.myimage img {
-    /* border: 2px solid rgb(106, 255, 0); */
-    border-radius: 50%;
-    height: 10rem;
-    width: 10rem;
+.gettoknow {
+    /* border: 2px solid rgb(4, 37, 247); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .allabout h3 {
@@ -86,15 +87,23 @@ body {
     font-size: 50px;
 }
 
+.aboutme p {
+    /* border: 2px solid green; */
+    /* padding: 20px 50px; */
+    font-size: 20px;
+}
+.myimage img {
+    /* border: 2px solid rgb(106, 255, 0); */
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+
 #me {
     color: rgb(252, 252, 252);
 }
 
-.aboutme p {
-    /* border: 2px solid green; */
-    padding: 20px 50px;
-    font-size: large;
-}
+
 
 /* MY JOURNEY CONTAINER SECTION */
 .myjourney {
@@ -140,7 +149,7 @@ body {
     height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 50px;
     padding: 20px 50px;
@@ -259,5 +268,8 @@ footer {
     font-size: 12px;
     font-weight: 400;
     color: #000000;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }

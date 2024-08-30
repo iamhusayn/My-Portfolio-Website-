@@ -15,7 +15,7 @@ body {
 header {
     background: #344e41;
     /* border: 2px solid red; */
-    /* border-bottom: 2px solid #ccae05eb; */
+    border-bottom: 1px solid #a3b18a;
     position: sticky;
     top: 0;
     left: 0;
