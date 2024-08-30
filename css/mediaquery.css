@@ -1,17 +1,79 @@
 /* Mobile Phones */
-@media screen and (max-width: 360px) {
-    header{
-        width: 50%;
-        padding: 2px 2px;
+@media screen and (max-width: 1200px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2px;
+        padding: 20px 0px;
+        width: 100%;
     }
 
-    .logo {
-        font-size: 5px;
-
+    .logo a {
+        font-size: 25px;
     }
 
     .navbar a {
-        margin-left: 2%;
+        margin-left: 1px;
+        font-size: small;
+    }
+
+    img {
+        height: 22rem;
+        width: 22rem;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        column-gap: 50px;
+    }
+
+    .home-content {
+        width: 350px;
+    }
+
+    .home-content h1 {
+        font-size: 31px;
+        margin-top: 30px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .home-content p {
+        /* border: 2px solid rgb(195, 0, 255); */
+        font-size: 15px;
+        font-weight: 500;
+        color:  #a3b18a;
+        margin-bottom: 50px;
+    }
+
+    .btnbox a {
+        font-size: 13px;
+        width: 90px;
+    }
+
+    .home-content .btnbox {
+        display: flex;
+        justify-content: 20px;
+        width: 220px;
+        height: 40px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        gap: .5rem;
+        row-gap: 5px;
+    }
+
+    footer p {
+        font-size: 10px;
     }
 }
 
