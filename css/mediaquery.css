@@ -19,8 +19,8 @@
     }
 
     img {
-        height: 22rem;
-        width: 22rem;
+        height: 18rem;
+        width: 18rem;
     }
 
     .home {
@@ -75,7 +75,37 @@
     footer p {
         font-size: 10px;
     }
+
+    /* About Section */
+    .header2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2px;
+        padding: 20px 0px;
+        width: 100%;
+    }
+
+    .logo2 {
+        font-size: 25px;
+    }
+
+    .navbar2 a {
+        margin-left: 1px;
+        font-size: small;
+    }
+
+    img {
+        height: 18rem;
+        width: 18rem;
+    }
+
+
+
+
+
+
+
+
 }
 
-/* Tablets Devices *
-/
