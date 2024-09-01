@@ -15,7 +15,7 @@ body {
 /* HEADER SECTION */
 .header {
     background: #a3b18a;
-    border-bottom: 2px solid #f30808eb;
+    /* border-bottom: 2px solid #f30808eb; */
     position: sticky;
     top: 0;
     left: 0;
@@ -51,7 +51,7 @@ body {
 .wholecontainer {
     /* border: 2px solid yellow; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 50px 10px;
@@ -114,8 +114,8 @@ body {
     border: 2px solid #000000;
     /* background-color: #a3b18a; */
     border-radius: 20px;
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     padding: 180px 20px;
     margin: 10px;
 }
@@ -185,7 +185,7 @@ footer {
 .close3 p,
 .cc3 {
     /* border: 2px solid rgb(255, 0, 0); */
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #a3b18a;
     display: inline-flex;

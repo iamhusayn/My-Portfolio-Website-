@@ -239,7 +239,7 @@ footer {
     border: 2px solid #000000;
     border-radius: 50%;
     font-size: 20px;
-    color: #a3b18a;
+    color: #000000;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -252,7 +252,7 @@ footer {
     left: 0;
     width: 0;
     height: 100%;
-    background: #000000;
+    background: #a3b18a;
     z-index: -1;
     transition: .3s;
 }
@@ -264,7 +264,7 @@ footer {
 .close2 p,
 .cc2 {
     /* border: 2px solid rgb(255, 0, 0); */
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #a3b18a;
     display: inline-flex;
