@@ -7,9 +7,10 @@
 
 body {
     /* border: 10px solid rgb(255, 0, 195); */
-    background-color: #a3b18a;
-    height: 100%;
-    /* color: #fffdfd; */
+    /* background-image: url(./image/pexels-charles-parker-5845710.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+   
 }
 
 
@@ -100,13 +101,13 @@ body {
 .contactcontainer {
     /* border: 2px solid black; */
     position: relative; 
-    min-height: 100vh; 
+    min-height: 90vh; 
     padding: 50px 100px; 
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: row; 
-    z-index: -1;
+    /* z-index: -1; */
     /* background: url(./image/black-and-white-city-.jpg); */
     /* background-size: cover; */
 }
@@ -136,7 +137,7 @@ body {
 
 .contactcontainer .socialmedia {
     /* border: 2px solid rgb(242, 5, 5); */
-    background: #344e41;
+    /* background: #344e41; */
     border-radius: 20px;
     width: 30%;
     display: flex;
@@ -153,85 +154,94 @@ body {
 .contactcontainer .socialmedia .box .icon {
     min-width: 60px;
     height: 60px;
-    background: #ffffff;
+    color: #a3b18a;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
+    /* border-radius: 50%; */
+    font-size: 30px;
 }
 
 .contactcontainer .socialmedia .box .text {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 10px;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
 }
 
 .contactcontainer .socialmedia .box .text h3 {
-    font-weight: 500;
-    color: #000000;
+    font-weight: 900;
+    color: #a3b18a;
 }
 
 .sendmessage {
     /* border: 2px solid rgb(250, 150, 0); */
+    background: #a3b18a;
     border-radius: 20px;
-    width: 40%;
-    padding: 40px;
-    background: #344e41;
+    width: 30;
+    padding: 30px 50px;
+    margin: 0px 0;
 }
 
 .sendmessage h2 {
-    font-size: 30px;
-    font-weight: 500;
-    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    color: #344e41;
 }
 
 .sendmessage .inputbox {
     position: relative;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
-.sendmessage .inputbox input, .sendmessage .inputbox input {
+.sendmessage .inputbox input, .sendmessage .inputbox textarea {
     width: 100%;
-    padding: 5px 0;
-    margin: 10px 0;
+    height: 30px;
+    padding: 10px 0;
+    margin: 5px 0;
     font-size: 16px;
     border: none;
-    border-bottom: 2px solid #333;
+
+    border-bottom: 2px solid #000000;
     outline: none;
-    resize: none;
+    resize: vertical;
 }
+
 
 .sendmessage .inputbox span {
     position: absolute;
     left: 0;
     padding: 5px 0;
     font-size: 16px;
-    margin: 10px 0;
+    margin: 5px 0;
     pointer-events: none;
     transition: 0.5s;
-    color: blueviolet;
+    color: #344e41;
 }
 
-.sendmessage .inputbox input:focus ~ span, .sendmessage .inputbox input:focus ~ span,
+.sendmessage .inputbox input:focus ~ span, 
+.sendmessage .inputbox input:valid ~ span,
 .sendmessage .inputbox textarea:focus ~ span,
-.sendmessage .inputbox textarea:focus ~ span {
-    color: deeppink;
-    font-size: 12px;
-    transform: translateY(-20px);
+.sendmessage .inputbox textarea:valid ~ span {
+    color: #344e41;
+    font-size: 16px;
+    font-weight: 600;
+    transform: translateY(-35px);
 }
 
-.sendmessage .inputbox input [type="submit"] {
+.sendmessage .inputbox input[type="submit"] {
     width: 100px;
-    background: #a66612;
+    background: #344e41;
     color: #fff;
     border: none;
-    padding: 10px;
-    font-size: 18px;
+    padding: 1px;
+    font-size: 20px;
     cursor: pointer;
+
+    
 }
 
 @media (max-width: 991px)

@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Husayn's Portfolio Page</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/e603607b89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./contact.css">
     <!-- <link rel="stylesheet" href="./mediaquery.css"> -->
@@ -37,7 +38,7 @@
             </div>
         </section>
         
-        <section class="contactcontainer">
+        <div class="contactcontainer">
             <div class="socialmedia">
                 <!-- <h3 class="letsconnect">Lets Connect</h3> -->
                 <!-- <p>How would you like to reach out to Husayn?</p> -->
@@ -61,27 +62,30 @@
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
                     <div class="text">
                         <h3>Email:</h3>
-                        <p> alawiyehusayn@gmail.com </p>
+                        <p>alawiyehusayn@gmail.com </p>
                     </div>
                 </div>
             </div>
     
             <div class="sendmessage">
                 <form>
-                    <h2>Send Message</h2>
+                    <h2>Send a message</h2>
                     <div class="inputbox">
-                        <input type="text" name="" required="required">
+                        <!-- <label for="fullname"></label> -->
+                        <input type="text" id="fullname" required="required">
                         <span>Full Name</span>
                     </div>
                     <div class="inputbox">
-                        <input type="text" name="" required="required">
+                        <!-- <label for="Email"></label> -->
+                        <input type="text" id="Email" required="required">
                         <span>Email</span>
                     </div>
                     <div class="inputbox">
+                        <!-- <label for="textarea"></label> -->
                         <textarea required="required"></textarea>
                         <span>Type your message...</span>
                     </div>
@@ -90,7 +94,7 @@
                     </div>
                 </form>
             </div>
-        </section> 
+        </div> 
     </section>
 </body>
 <!-- <footer>
