@@ -41,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-.navbar ul li {
+.navbar ul li a {
     color: #000000;
     display: inline-block;
     text-decoration: none;
@@ -190,7 +190,7 @@ body {
 
 /* LETS CONNECT CONTAINER SECTION */
 .letsconnect {
-    border: 2px solid rgb(252, 0, 134);
+    /* border: 2px solid rgb(252, 0, 134); */
     display: flex;
     flex-direction: column;
     justify-content: center;

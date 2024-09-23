@@ -22,12 +22,12 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 10%;
+    padding: 30px 10%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* flex-direction: row; */
+    justify-content: space-between;
     align-items: center;
-    gap: 500px;
+    /* gap: 500px; */
 }
 
 .navlist, .cancel {
@@ -42,10 +42,12 @@ header {
 .navbar {
     /* border: 2px solid #ccae05eb; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
 }
-
+.navbar ul{
+    display: flex;
+}
 .navbar ul li {
     list-style: none;
 }
