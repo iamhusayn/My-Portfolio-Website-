@@ -8,6 +8,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="./mediaquery.css"> -->
 </head>
 
@@ -17,12 +19,21 @@
             <a href="./index.html">Husayn.</a>
         </div>
 
-        <nav class="navbar">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./projects.html">Projects</a>
-            <a href="./contact.html">Contact</a>
+        <nav class="navbar" id="nav">
+            <ul>
+                <div class="cancel">
+                    <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+                </div>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
         </nav>
+
+        <div class="navlist">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
     <section class="wholecontainer">
@@ -38,36 +49,49 @@
                 <div class="imagecontainer">
                     <img src="./image/My Bio 2.png" alt="">
                 </div>
-                <h3>My Biography</h3>
-                <button class="btnbox">GitHub</button>
-                <button class="btnbox">Check Demo</button>
+                <div class="btnbox">
+                    <h3>My Biography</h3>
+                    <p>This was among my first practice on HTML elements and border box.</p>
+                    <a href="#">GitHub</a>
+                    <a href="#">Check Demo</a>
+                </div>
             </div>
-
             <div class="project2">
                 <div class="imagecontainer">
                     <img src="./image/Recipe Page 2.png" alt="">
                 </div>
-                <h3>Omelette Recipe</h3>
-                <button class="btnbox">GitHub</button>
-                <button class="btnbox">Check Demo</button>
+            
+                <div class="btnbox">
+                    <h3>Omelette Recipe</h3>
+                    <p>Oh my Omelette! This project focused on the box model and a glimpse of CSS. </p>
+                    <a href="#">GitHub</a>
+                    <a href="#">Check Demo</a>
+                </div>
             </div>
-
+            
+            
             <div class="project3">
                 <div class="imagecontainer">
                     <img src="./image/Stack of Cards.png" alt="">
                 </div>
-                <h3>Stack of Cards</h3>
-                <button class="btnbox">GitHub</button>
-                <button class="btnbox">Check Demo</button>
+                <div class="btnbox">
+                    <h3>Stack of Cards</h3>
+                    <p>I tried my hands on stacking cards. The essence was to learn about the flex and grid styling.</p>
+                    <a href="#">GitHub</a>
+                    <a href="#">Check Demo</a>
+                </div>
             </div>
-
+            
             <div class="project4">
                 <div class="imagecontainer">
                     <img src="./image/Florist 2.png" alt="">
                 </div>
-                <h3>Florist Garden</h3>
-                <button class="btnbox">GitHub</button>
-                <button class="btnbox">Check Demo</button>
+                <div class="btnbox">
+                    <h3>Florist Garden</h3>
+                    <p>The flowrist garden was more of a full-blown site. This was an eye opener to web pages, grid sytem and responsive web design using mediaquery.</p>
+                    <a href="#">GitHub</a>
+                    <a href="#">Check Demo</a>
+                </div>
             </div>
         </section>
     </section>
@@ -90,4 +114,5 @@
     </div>
 </footer>
 
+<script src="scripts.js"></script>
 </html>

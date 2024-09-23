@@ -10,6 +10,8 @@
     <script src="https://kit.fontawesome.com/e603607b89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="./mediaquery.css"> -->
 </head>
 
@@ -20,12 +22,21 @@
                 <a href="./index.html">Husayn.</a>
             </div>
     
-            <nav class="navbar">
-                <a href="./index.html">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./projects.html">Projects</a>
-                <a href="./contact.html">Contact</a>
+            <nav class="navbar" id="nav">
+                <ul>
+                    <div class="cancel">
+                        <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
             </nav>
+    
+            <div class="navlist">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </header>
     
         <section class="introcontainer">
@@ -90,7 +101,7 @@
                         <span>Type your message...</span>
                     </div>
                     <div class="inputbox">
-                        <input type="submit" value="Send">
+                        <a href="mailto:alawiyehusayn@gmail.com"><input type="submit" value="Send"></a>
                     </div>
                 </form>
             </div>
@@ -115,4 +126,5 @@
     </div>
 </footer> -->
 
+<script src="scripts.js"></script>
 </html>

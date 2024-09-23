@@ -24,6 +24,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
+}
+
+.navlist, .cancel {
+    display: none;
+}
+
+.navbar a {
+    list-style: none;
 }
 
 .logo {
@@ -33,7 +42,7 @@ body {
     text-decoration: none;
 }
 
-.navbar a {
+.navbar ul li {
     color: #a3b18a;
     display: inline-block;
     text-decoration: none;
@@ -99,21 +108,26 @@ body {
 
 /* PROJECT SECTION */
 .projects {
-    margin: 20px 10px;
-    border: 2px solid red;
+    margin: 20px 8px;
+    padding: auto;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-content: center;
-    gap: 10px;
+    gap: 60px;
+    z-index: -1;
 }
 
 .project1, .project2, .project3, .project4 {
-    border: 2px solid #000000;
-    /* background-color: #a3b18a; */
+    /* border: 2px solid #000000; */
     border-radius: 20px;
-    width: 500px;
-    /* height: 300px; */
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     padding: 10px 20px;
     margin: 10px;
 }
@@ -125,16 +139,69 @@ body {
 }
 
 .projects h3 {
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
     flex: auto;
     justify-content: baseline;
     align-items: center;
 }
 
-.projects .btnbox {
-    
+.projects p {
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
+/* .btn {
+    border-radius: 20px;
+    width: 100px;
+    background-color: #344e41;
+} */
+
+
+
+.btnbox a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 15px;
+    /* background: #344e41; */
+    /* background-color: #000; */
+    /* width: 120px; */
+    /* height: 100%; */
+    /* border-radius: 10px; */
+    border: 2px solid #344e41;
+    color: #a3b18a;
+    text-decoration: none;
+    /* letter-spacing: 2px; */
+    /* overflow: hidden; */
+    z-index: 1;
+    transition: .3s;
+    background-color: #344e41;
+    margin-bottom: 4px;
+}
+
+.btnbox a:hover {
+    color: #000000;
+}
+
+.btnbox a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #a3b18a;
+    z-index: -1;
+    transition: .3s;
+}
+
+.btnbox a:hover::before {
+    width: 100%;
+}
 
 /* FOOTER CONTAINER SECTION */
 footer {

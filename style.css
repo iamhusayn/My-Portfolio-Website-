@@ -30,6 +30,26 @@ header {
     gap: 500px;
 }
 
+.navlist, .cancel {
+    display: none;
+}
+
+.navbar a {
+    list-style: none;
+}
+
+
+.navbar {
+    /* border: 2px solid #ccae05eb; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
 .logo a {
     /* border-bottom: 2px solid #ccae05eb; */
     font-size: 40px;
@@ -38,19 +58,21 @@ header {
     text-decoration: none;
 }
 
-.navbar a {
+.navbar ul li a {
     /* border-bottom: 2px solid #ccae05eb; */
     color: #a3b18a;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
     margin-left: 50px;
+    /* list-style: none; */
 }
 
-.navbar a:hover,
-.navbar a:hover:active {
-    color:  rgba(0, 0, 0, 0.923);
+.navbar ul li a:hover,
+.navbar ul li a:hover:active {
+    color: rgba(0, 0, 0, 0.923);
 }
+
 
 .home {
     display: flex;

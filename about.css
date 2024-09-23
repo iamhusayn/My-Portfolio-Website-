@@ -26,6 +26,14 @@ body {
     align-items: center;
 }
 
+.navlist, .cancel {
+    display: none;
+}
+
+.navbar a {
+    list-style: none;
+}
+
 .logo2 {
     font-size: 40px;
     color: #000000;
@@ -33,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-.navbar2 a {
+.navbar ul li {
     color: #000000;
     display: inline-block;
     text-decoration: none;
@@ -182,7 +190,7 @@ body {
 
 /* LETS CONNECT CONTAINER SECTION */
 .letsconnect {
-    /* border: 2px solid rgb(252, 0, 134); */
+    border: 2px solid rgb(252, 0, 134);
     display: flex;
     flex-direction: column;
     justify-content: center;

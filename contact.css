@@ -29,6 +29,18 @@ body {
     z-index: 10;
 }
 
+.navlist {
+    display: none;
+}
+
+.navbar a {
+    list-style: none;
+}
+
+.navlist, .cancel {
+    display: none;
+}
+
 .logo {
     font-size: 40px;
     color: #000000;
@@ -36,7 +48,7 @@ body {
     text-decoration: none;
 }
 
-.navbar a {
+.navbar ul li {
     color: #a3b18a;
     display: inline-block;
     text-decoration: none;
@@ -139,9 +151,10 @@ body {
     /* border: 2px solid rgb(242, 5, 5); */
     /* background: #344e41; */
     border-radius: 20px;
-    width: 30%;
+    width: 30;
     display: flex;
     flex-direction: column;
+    align-content: left;
     margin: 0 100px;
 }
 
@@ -152,13 +165,13 @@ body {
 }
 
 .contactcontainer .socialmedia .box .icon {
-    min-width: 60px;
+    /* border: 2px solid rgb(242, 5, 5); */
+    width: 30px;
     height: 60px;
     color: #a3b18a;
     display: flex;
     justify-content: left;
-    align-items: center;
-    /* border-radius: 50%; */
+    align-items: left;
     font-size: 30px;
 }
 
@@ -244,23 +257,7 @@ body {
     
 }
 
-@media (max-width: 991px)
-{
-    .contact {
-        padding: 50px;
-    }
-    .container {
-        flex-direction: column;
-    }
-    
-    .container .contactInfo {
-        margin-bottom: 40px;
-    }
-    
-    .container .contactInfo {
-        width: 100;
-    }
-}
+
 
 
 
