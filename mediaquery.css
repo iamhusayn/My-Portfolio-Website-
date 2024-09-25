@@ -6,11 +6,18 @@
         justify-content: space-evenly;
         gap: 2px;
         padding: 20px 0px;
-        width: 100%;
+        width: 100vw;
     }
 
     .navlist {
         display: block;
+        padding-right: 100px;
+    }
+
+    .navlist i {
+        display: block;
+        font-size: 40px;
+        padding-left: 100px;
     }
 
     .navbar {
@@ -23,16 +30,19 @@
         color: #ffffff;
         font-size: 20px;
         background-color: #a3b18a;
-       
     }
 
     .cancel{
+        position: absolute;
+        top: 5px;
+        right: 70px;
         display: block;
         color: #000000;
     }
 
     .navbar ul{
         flex-direction: column;
+        padding-right: 90%;
     }
 
     .navbar ul li a {
