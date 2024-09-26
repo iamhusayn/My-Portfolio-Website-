@@ -21,13 +21,14 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     padding: 30px 10%;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
     /* gap: 500px; */
+    z-index: 1000;
 }
 
 .navlist, .cancel {
@@ -38,22 +39,18 @@ header {
     list-style: none;
 }
 
-
-.navbar {
+.navbar ul {
     /* border: 2px solid #ccae05eb; */
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 }
-.navbar ul{
-    display: flex;
-}
+
 .navbar ul li {
     list-style: none;
 }
 
 .logo a {
-    /* border-bottom: 2px solid #ccae05eb; */
+    /* border: 2px solid #cc6205eb; */
     font-size: 40px;
     color: #a3b18a;
     font-weight: 900;
@@ -191,7 +188,7 @@ footer {
 
 .sm-home {
     /* border: 2px solid rgb(0, 255, 51); */
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     gap: 40px; 
 }

@@ -3,15 +3,15 @@
     header {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        gap: 2px;
+        justify-content: space-around;
+        gap: 10px;
         padding: 20px 0px;
-        width: 100vw;
+        width: 100%;
     }
 
     .navlist {
         display: block;
-        padding-right: 100px;
+        padding-right: 1px;
     }
 
     .navlist i {
@@ -21,7 +21,7 @@
     }
 
     .navbar {
-        display: flex;
+        display:  none;
         position: absolute;
         top: 0;
         left: 0;
@@ -302,11 +302,78 @@
     }
 
     /* PROJECT PAGE */
-    .projects {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .myprojects {
         display: flex;
         flex-direction: column;
     }
 
+    .myprojects h3 > span {
+        font-size: 40px;
+    }
+
+    .myprojects h3 {
+        font-size: 25px;
+    }
+
+    .myprojects p {
+        font-size: 20px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .project1, .project2, .project3, .project4 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 10px;
+        margin: 0px;
+    }
+
+    .imagecontainer img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project1, .project2, .project3, .project4 > img {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .projects h3 {
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1;
+        flex: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects p {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .btnbox a {
+        font-size: 12px;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .close3 p, .cc3 {
+        display: flex;
+    }
 
 
 
@@ -314,7 +381,7 @@
 }
 
 
-@media (max-width: 991px)
+/* @media (max-width: 991px)
 {
     .contact {
         padding: 50px;
@@ -330,4 +397,4 @@
     .container .contactInfo {
         width: 100;
     }
-}
+} */
