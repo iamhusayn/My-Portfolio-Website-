@@ -6,17 +6,13 @@
 }
 
 body {
-    /* border: 10px solid rgb(255, 0, 195); */
     background-color: #a3b18a;
     height: 100vh;
-    /* color: #fffdfd; */
 }
 
 /* HEADER SECTION */
 .header {
     background: #a3b18a;
-    /* border-bottom: 2px solid #f30808eb; */
-    /* position: sticky; */
     top: 0;
     left: 0;
     width: 100%;
@@ -24,7 +20,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* z-index: 2; */
 }
 
 .navlist, .cancel {
@@ -58,7 +53,6 @@ body {
 
 /* CONTENT CONTAINER SECTION */
 .wholecontainer {
-    /* border: 2px solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -69,7 +63,6 @@ body {
 
 /* INTORDUCTORY SECTION */
 .intro {
-    /* border: 2px solid orange; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -78,7 +71,6 @@ body {
 }
 
 .myprojects {
-    /* border: 2px solid coral; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,26 +79,21 @@ body {
     padding: 50px 0px;
 }
 .myprojects h3 > span {
-    /* border: 2px solid purple; */
     font-size: 50px;
     font-weight: 900;
     color: #ffffff;
 }
 
 .myprojects h3 {
-    /* border: 2px solid rgb(0, 122, 128); */
-    /* color: #a3b18a; */
     font-size: 35px;
     font-weight: 800;
 }
 
 .myprojects p {
-    /* border: 2px solid rgb(0, 43, 128); */
     font-size: 25px;
 }
     
 .myimage img {
-    /* border: 2px solid rgb(106, 255, 0); */
     border-radius: 50%;
     height: 8rem;
     width: 8rem;
@@ -116,17 +103,14 @@ body {
 .projects {
     margin: 20px 8px;
     padding: auto;
-    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-content: center;
     gap: 60px;
-    /* z-index: 0; */
 }
 
 .project1, .project2, .project3, .project4 {
-    /* border: 2px solid #000000; */
     background-color: #344e41;
     border-radius: 20px;
     width: 600px;
@@ -160,31 +144,17 @@ body {
     padding-bottom: 50px;
 }
 
-/* .btn {
-    border-radius: 20px;
-    width: 100px;
-    background-color: #344e41;
-} */
-
-
 
 .btnbox a {
-    /* position: relative; */
     display: inline-flex;
     justify-content: center;
     align-items: center;
     font-weight: 900;
     font-size: 15px;
-    /* background: #344e41; */
-    /* background-color: #000; */
-    /* width: 120px; */
-    /* height: 100%; */
-    /* border-radius: 10px; */
     border: 2px solid #a3b18a;
     color: #a3b18a;
     text-decoration: none;
-    /* letter-spacing: 2px; */
-    /* overflow: hidden; */
+    overflow: hidden;
     /* z-index: 1; */
     transition: .3s;
     background-color: #344e41;
@@ -212,7 +182,6 @@ body {
 }
 
 .btcontrol {
-    /* border: 2px solid rgb(255, 166, 0); */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -221,7 +190,6 @@ body {
 
 /* FOOTER CONTAINER SECTION */
 footer {
-    /* border: 2px solid rgb(255, 166, 0); */
     background-color: #344e41;
     margin: 0px 150px;
     display: inline-flex;
@@ -236,7 +204,6 @@ footer {
 
 /* SOCIAL MEDIA LINK SECTION */
 .sm-home3 {
-    /* border: 2px solid rgb(0, 255, 51); */
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -275,9 +242,15 @@ footer {
     width: 100%;
 }
 
+.ccclose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 .close3 p,
 .cc3 {
-    /* border: 2px solid rgb(255, 0, 0); */
     font-size: 14px;
     font-weight: 400;
     color: #a3b18a;

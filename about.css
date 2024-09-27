@@ -7,10 +7,8 @@
 }
 
 body {
-    /* border: 10px solid rgb(255, 0, 195); */
     background-color: #a3b18a;
     height: 100%;
-    color: #a3b18a;
 }
 
 /* HEADER SECTION */
@@ -34,15 +32,8 @@ body {
     list-style: none;
 }
 
-.logo2 {
-    font-size: 40px;
-    color: #000000;
-    font-weight: 900; 
-    text-decoration: none;
-}
-
 .navbar ul li a {
-    color: #000000;
+    color: #a3b18a;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
@@ -57,7 +48,6 @@ body {
 
 /* BODY CONTAINER SECTION */
 .allabout {
-    /* border: 2px solid black; */
     display: grid;
     align-items: center;
     justify-content: center;
@@ -71,7 +61,6 @@ body {
 
 /* ABOUT ME CONTAINER SECTION */
 .aboutme {
-    /* border: 2px solid rgb(4, 37, 247); */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -81,7 +70,6 @@ body {
 }
 
 .gettoknow {
-    /* border: 2px solid rgb(4, 37, 247); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,18 +77,14 @@ body {
 }
 
 .allabout h3 {
-    /* border: 2px solid rgb(207, 23, 23); */
     background-color: transparent;
     font-size: 50px;
 }
 
 .aboutme p {
-    /* border: 2px solid green; */
-    /* padding: 20px 50px; */
     font-size: 20px;
 }
 .myimage img {
-    /* border: 2px solid rgb(106, 255, 0); */
     border-radius: 50%;
     height: 10rem;
     width: 10rem;
@@ -112,9 +96,8 @@ body {
 
 
 
-/* MY JOURNEY CONTAINER SECTION */
-.myjourney {
-    /* border: 2px solid rgb(255, 145, 0); */
+/* MY JOURNEY & MY OTHERSDIE CONTAINER SECTION */
+.myjourney, .otherside {
     width: 80rem;
     height: fit-content;
     display: flex;
@@ -126,61 +109,8 @@ body {
     margin: 5px 20px;
 }
 
-.education {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-    padding: 20px 20px;
-}
-
-.certification {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-    padding: 20px 20px;
-}
-.workexperience {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-    padding: 20px 20px;
-}
-
-/* MY OTHERSDIE CONTAINER SECTION */
-.otherside {
-    /* border: 2px solid rgb(207, 32, 1); */
-    width: 80rem;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 50px;
-    padding: 20px 50px;
-    margin: 5px 20px;
-}
-
-
-.mybelieve {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-    padding: 20px 20px;
-}
-
-.myhobbies {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-    padding: 20px 20px;
-}
-
-.notworking {
+.education, .certification, .workexperience, 
+.mybelieve, .myhobbies, .notworking {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     width: 300px;
@@ -190,7 +120,6 @@ body {
 
 /* LETS CONNECT CONTAINER SECTION */
 .letsconnect {
-    /* border: 2px solid rgb(252, 0, 134); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,21 +130,18 @@ body {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     width: 600px;
-    /* height: 100px; */
     padding: 20px 20px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* align-content: center; */
 }
 
 
 
 /* FOOTER CONTAINER SECTION */
 footer {
-    /* border: 2px solid rgb(255, 166, 0); */
     background-color: #344e41;
     margin: 0px 150px;
     display: inline-flex;
@@ -230,7 +156,6 @@ footer {
 
 /* SOCIAL MEDIA LINK SECTION */
 .sm-home2 {
-    /* border: 2px solid rgb(0, 255, 51); */
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -269,14 +194,17 @@ footer {
     width: 100%;
 }
 
+.ccclose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 .close2 p,
 .cc2 {
-    /* border: 2px solid rgb(255, 0, 0); */
     font-size: 14px;
     font-weight: 400;
     color: #a3b18a;
     display: inline-flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-content: center; */
 }
