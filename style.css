@@ -136,7 +136,7 @@ header {
     border: 2px solid #a3b18a;
     color: #000000;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     overflow: hidden;
     z-index: 1;
     transition: .3s;
