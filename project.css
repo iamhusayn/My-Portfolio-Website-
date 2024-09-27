@@ -8,6 +8,7 @@
 body {
     background-color: #a3b18a;
     height: 100vh;
+    max-width: 100vw;
 }
 
 /* HEADER SECTION */
